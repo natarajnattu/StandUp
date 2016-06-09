@@ -13,7 +13,7 @@ function notifyMe() {
   else {
     var notification = new Notification('Nattu - App - Please stand once', {
       icon: 'images/love-128.png',
-      body: "continously sitting in chair is not healthy way to work. now Its time to stand for atleast half minute!",
+      body: "continuously sitting in chair is not healthy way to work. now Its time to stand for atleast half minute!",
     });
 
     notification.onclick = function () {
